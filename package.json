@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
-    "start:prod": "cross-env NODE_ENV=production nodemon server.js",
+    "start:prod": "cross-env NODE_ENV=production node server.js",
     "importData": "node dev-data/data/import-dev-data.js --import",
     "deleteData": "node dev-data/data/import-dev-data.js --delete",
     "debug": "ndb server.js",
