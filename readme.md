@@ -64,8 +64,4 @@ STRIPE_SECRET_KEY=your_secret_key
 
 ## ▶️ Runing the app
 
-npm run start
-
----
-
-Would you like me to help you generate a GitHub repository structure (`.gitignore`, folders, etc.) or deploy instructions as well?
+- npm run start
