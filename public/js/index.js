@@ -39,7 +39,7 @@ if (signupForm) {
     const passwordConfirm = document.getElementById(
       'sign-passwordConfirm',
     ).value;
-    console.log(name, email, password, passwordConfirm);
+
     signup(name, email, password, passwordConfirm);
   });
 }
