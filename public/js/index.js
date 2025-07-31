@@ -5,6 +5,7 @@ import { login, logout } from './login';
 import { signup } from './signup';
 import { updateSettings } from './updateSetting';
 import { bookTour } from './stripe';
+import { showAlert } from './alerts';
 
 // DOM ELEMENTS
 const leaflet = document.getElementById('map');
@@ -88,3 +89,7 @@ if (bookBtn) {
     e.target.textContent = 'Book tour now!';
   });
 }
+
+const alertMessage = document.querySelector('body').dataset.alert;
+
+if (alert) showAlert('success', alertMessage, 20);
